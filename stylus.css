@@ -1,23 +1,24 @@
 body{
-	background-color: #985E6D
+	background-color: #494E6B
 }
 
-.ballpoint{
+*{
+	margin: 2px;
+}
+
+.jumbotron{
+	color: pink;
+}
+
+.ballpoint , .gelpen , .japan, .fountain , .felt , .water , .metal , .high{
 	font-size: 22px;
-	color: #192231
+	color: pink;
+
 }
-.gelpen{
-	font-size: 22px;
-	color: #192231
+.col-sm-2{
+	border: none;
+	margin: 45px;
 }
-.japan{
-	font-size: 22px;
-	color: #192231
-}
-.opal{
-	font-size: 22px;
-	color: #192231
-}
-.col-nd-3{
-	margin: 30px;
-}
+
+
+
