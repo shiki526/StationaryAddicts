@@ -30,26 +30,30 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #192231;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  float: left;
+  position: absolute;
+  left: 725px;
+
+  
+  
 }
 
 /* Style the container */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+#container {
+  
+  padding: 50px;
 }
 
 /* Floating column for labels: 25% width */
 .col-25 {
   float: left;
-  width: 25%;
+  width: 15%;
   margin-top: 6px;
 }
 
@@ -68,15 +72,7 @@ input[type=submit] {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-        .col-md-12{
-          margin: 20px;
-        }
+
         
       </style>
 
@@ -108,12 +104,12 @@ input[type=submit] {
            </div>
       </div>
 
-<center><h1>Contact Us Form</h1></center>
-<div class="container">
+<center><h1 class = "officalHeader">Contact Us!</h1></center>
+<div id="container">
   <form action="action_page.php">
     <div class="row">
       <div class="col-25">
-        <label for="fname">First Name</label>
+        <label class = "nice" for="fname">First Name</label>
       </div>
       <div class="col-75">
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -121,7 +117,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">Last Name</label>
+        <label class = "nice" for="lname">Last Name</label>
       </div>
       <div class="col-75">
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -129,7 +125,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="email">Your Email</label>
+        <label class = "nice" for="email">Your Email</label>
       </div>
       <div class="col-75">
        <input type="text" id="email" name="email" placeholder="1234@gmail.com...">
@@ -137,7 +133,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="subject">Subject</label>
+        <label class = "nice" for="subject">Subject</label>
       </div>
       <div class="col-75">
         <textarea id="subject" name="subject" placeholder="Comments? Questions? Concerns?" style="height:200px"></textarea>
@@ -148,24 +144,24 @@ input[type=submit] {
     </div>
   </form>
 </div>
-
-<center><h1>Social Media Pages</h1></center>
+<br></br>
+<center><h1 class ="officalHeader2">Social Media</h1></center>
 <div class="container">
       <div class="row">
             
                <div class="col-md-12">
-                <img src="insta.png" width="100px">
+                <img src="insta.png" width="100px"> <p class = "what"> @stationeryaddicts123 </p>
                </div>
-      </div>
+          </div>
       <div class="row">
                <div class="col-md-12">
-               <img src="twitter.png" width="100px">
+               <img src="twitter.png" width="100px"> <p class = "what"> @StationeryAddi2 </p>
                </div>
       </div>
       <div class="row">
             
                <div class="col-md-12">
-                <img src="gmail.png" width="100px">
+                <img src="gmail.png" width="100px"> <p class = "what"> addictsstationery@gmail.com </p>
                </div>
       </div>
 </div>
