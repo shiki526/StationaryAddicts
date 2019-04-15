@@ -9,9 +9,9 @@
       <link href = "styles.css" rel = "stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
       <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+      
 
       <style type="text/css">
-
       /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
@@ -21,13 +21,11 @@ input[type=text], select, textarea{
   box-sizing: border-box;
   resize: vertical;
 }
-
 /* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-
 /* Style the submit button */
 input[type=submit] {
   background-color: #192231;
@@ -39,40 +37,39 @@ input[type=submit] {
   float: left;
   position: absolute;
   left: 725px;
-
   
   
 }
-
 /* Style the container */
 #container {
   
   padding: 50px;
 }
-
 /* Floating column for labels: 25% width */
 .col-25 {
   float: left;
   width: 15%;
   margin-top: 6px;
 }
-
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
+.row{
+  position: relative;
+  top: -28px;
+  padding: 10px;
+}
         
       </style>
 
@@ -109,15 +106,15 @@ input[type=submit] {
   <form action="action_page.php">
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="fname">First Name</label>
+        <label class = "nice" for="fname"><font size="4">First Name</font></label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="lname">Last Name</label>
+        <label class = "nice" for="lname"><font size="4">Last Name</font></label>
       </div>
       <div class="col-75">
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -125,7 +122,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="email">Your Email</label>
+        <label class = "nice" for="email"><font size="4">Your Email</font></label>
       </div>
       <div class="col-75">
        <input type="text" id="email" name="email" placeholder="1234@gmail.com...">
@@ -133,36 +130,31 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="subject">Subject</label>
+        <label class = "nice" for="subject"><font size="4">Subject</font></label>
       </div>
       <div class="col-75">
         <textarea id="subject" name="subject" placeholder="Comments? Questions? Concerns?" style="height:200px"></textarea>
       </div>
     </div>
-    <div class="row">
-      <input type="submit" value="Submit">
+       <div class="row" >
+      <input type="submit" value="Submit" onclick="window.open('thankyou.html');">
     </div>
   </form>
 </div>
 <br></br>
-<center><h1 class ="officalHeader2">Social Media</h1></center>
-<div class="container">
-      <div class="row">
-            
-               <div class="col-md-12">
-                <img src="insta.png" width="100px"> <p class = "what"> <a href="https://www.instagram.com/stationeryaddicts526/"> @stationeryaddicts123 </a> </p>
-               </div>
-          </div>
-      <div class="row">
-            
-               <div class="col-md-12">
-                <img src="gmail.png" width="100px"> <p class = "what"> addictsstationery@gmail.com </p>
-               </div>
-      </div>
-</div>
+
   
 
 
+<div class="navbar navbar-default navbar-fixed-bottom">
+        
+        <div class="container">
+          <p class="navbar-text">Our Social Media: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/stationeryaddicts526/?hl=en"> <img src = "insta.png" width = "35px"></a> </p>
+          
+
+        </div>
+
+      </div>
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
