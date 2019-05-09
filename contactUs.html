@@ -9,8 +9,6 @@
       <link href = "styles.css" rel = "stylesheet">
       <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
       <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-      <link href="img/logo.png" rel="shortcut icon" type=image/png">
-      <link rel="icon" type="image/x-icon" href="favicon.ico"/>
       
 
       <style type="text/css">
@@ -45,7 +43,7 @@ input[type=submit] {
 /* Style the container */
 #container {
   
-  padding: 50px;
+  padding: 3%;
 }
 /* Floating column for labels: 25% width */
 .col-25 {
@@ -66,12 +64,13 @@ input[type=submit] {
   clear: both;
 }
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
 .row{
   position: relative;
-  top: -28px;
-  padding: 10px;
+  margin-left: 10%
+  top: -10%;
 }
-     
+        
       </style>
 
   </head>
@@ -83,7 +82,7 @@ input[type=submit] {
 <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16143090&data_platform=code&data_date=2019-01-16" charset="utf-8"></script>
 <script type="text/javascript">Ecwid.init();</script>
 </div>
-             <a href = "index.html" class = "navbar-brand"> <img style="position:absolute; top:0px;" src=logo.png width = 50px> </a>
+            <a href = "index.html" class = "navbar-brand"> <img src = "logo.png" width = "35px"> </a>
               <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
                 <span class = "icon-bar"></span>
                 <span class = "icon-bar"></span>
@@ -107,7 +106,7 @@ input[type=submit] {
   <form action="action_page.php">
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="fname"><font size="4" style = "padding: 50px; color: #9C0D38;">First Name:</font></label>
+        <label class = "nice" for="fname"><font size="4">First Name</font></label>
       </div>
       <div class="col-75">
         <input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -115,7 +114,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="lname"><font size="4" style = "padding: 50px; color: #9C0D38;">Last Name:</font></label>
+        <label class = "nice" for="lname"><font size="4">Last Name</font></label>
       </div>
       <div class="col-75">
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -123,7 +122,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="email"><font size="4" style = "padding: 50px; color: #9C0D38;">Your Email:</font></label>
+        <label class = "nice" for="email"><font size="4">Your Email</font></label>
       </div>
       <div class="col-75">
        <input type="text" id="email" name="email" placeholder="1234@gmail.com...">
@@ -131,13 +130,15 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
+        <label class = "nice" for="subject"><font size="4">Subject</font></label>
       </div>
       <div class="col-75">
         <textarea id="subject" name="subject" placeholder="Comments? Questions? Concerns?" style="height:200px"></textarea>
       </div>
     </div>
-       <div class="row" >
-      <input type="submit" value="Submit" onclick="window.open('thankYou.html');" style = "background-color:#08415C;">
+       <div class="row" style="padding: 1% ">
+        
+          <center><button type="button" class="btn btn-primary"><a href="thankyou.html"><font color="white">Submit</font></a></button></center>
     </div>
   </form>
 </div>
@@ -146,11 +147,15 @@ input[type=submit] {
   
 
 
-<div class="navbar navbar-default navbar-fixed-bottom" id = "footer">
-  <div class="container">
-    <p class="navbar-text" id = "footer"> Our Social Media:<a href="https://www.instagram.com/stationeryaddicts526/?hl=en"> <img src = "insta.jpg" width = "40px" hspace = "50px"> </a> <a href="https://twitter.com/StationeryAddi3"> <img src = "twitter.png" width = "40px" hspace = "50px"> </a></p>
-  </div>
-</div>
+<div class="navbar navbar-default navbar-fixed-bottom">
+        
+        <div class="container">
+          <p class="navbar-text">Our Social Media: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/stationeryaddicts526/?hl=en"> <img src = "insta.png" width = "35px"></a> </p>
+          
+
+        </div>
+
+      </div>
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
