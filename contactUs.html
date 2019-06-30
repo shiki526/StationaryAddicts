@@ -45,19 +45,19 @@ input[type=submit] {
 /* Style the container */
 #container {
   
-  padding: 50px;
+  padding: 3%;
 }
 /* Floating column for labels: 25% width */
 .col-25 {
   float: left;
   width: 15%;
-  margin-top: 6px;
+  margin-top: 0.1%;
 }
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
   width: 75%;
-  margin-top: 6px;
+  margin-top: 0.1%;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -68,8 +68,8 @@ input[type=submit] {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 .row{
   position: relative;
-  top: -28px;
-  padding: 10px;
+  top: -10%;
+  padding: 0.1%;
 }
      
       </style>
@@ -107,7 +107,7 @@ input[type=submit] {
   <form action="action_page.php">
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="fname"><font size="4" style = "padding: 50px; color: #9C0D38;">First Name:</font></label>
+        <label class = "nice" for="fname"><font size="4" style = "margin-left: 5%; color: #9C0D38;">First Name:</font></label>
       </div>
       <div class="col-75">
         <input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -115,7 +115,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="lname"><font size="4" style = "padding: 50px; color: #9C0D38;">Last Name:</font></label>
+        <label class = "nice" for="lname"><font size="4" style = "margin-left: 5%; color: #9C0D38;">Last Name:</font></label>
       </div>
       <div class="col-75">
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -123,7 +123,7 @@ input[type=submit] {
     </div>
     <div class="row">
       <div class="col-25">
-        <label class = "nice" for="email"><font size="4" style = "padding: 50px; color: #9C0D38;">Your Email:</font></label>
+        <label class = "nice" for="email"><font size="4" style = "margin-left: 5%; color: #9C0D38;">Your Email:</font></label>
       </div>
       <div class="col-75">
        <input type="text" id="email" name="email" placeholder="1234@gmail.com...">
@@ -133,11 +133,11 @@ input[type=submit] {
       <div class="col-25">
       </div>
       <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Comments? Questions? Concerns?" style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Comments? Questions? Concerns?" style="height:25%"></textarea>
       </div>
     </div>
-       <div class="row" >
-      <input type="submit" value="Submit" onclick="window.open('thankYou.html');" style = "background-color:#08415C;">
+       <div class="row" id="submoot" >
+        <input type="submit" value="Submit" onclick="window.open('thankYou.html');" style = "background-color:#08415C;">
     </div>
   </form>
 </div>
@@ -146,7 +146,7 @@ input[type=submit] {
   
 <div class="navbar navbar-default navbar-fixed-bottom" id = "footer" style = "height: 10%;">
   <div class="container">
-   <p class="navbar-text" id = "footer" style = "margin-top: 1%; margin-left: 27%; margin-right: 24%; "><img class = "yeeyee" src="Right.png"> Our Social Media: <a href="https://www.instagram.com/stationeryaddicts526/?hl=en"> <img src = "insta.jpg" width = "4%" hspace = "1%"> </a> <a href="https://twitter.com/StationeryAddi3"> <img src="https://img.icons8.com/color/40/000000/twitter-squared.png" width = "5%" hspace = "1%"></a> <a href="https://www.facebook.com/Stationery-Addicts-2291628151060026/?modal=admin_todo_tour"> <img src="https://img.icons8.com/color/50/000000/facebook.png" width = "5%" hspace = "1%"> <img class = "yeeyee" src="left.png"></a> </p>
+   <p class="navbar-text" id = "footer" style = "margin-top: 1%; margin-left: 27%; margin-right: 24%; "><img class = "yeeyee" src="Right.png"> Our Social Media: <a href="https://www.instagram.com/stationeryaddicts526/?hl=en"> <img src = "insta.jpg" width = "7%" hspace = "1%"> </a> <a href="https://twitter.com/StationeryAddi3"> <img src="https://img.icons8.com/color/40/000000/twitter-squared.png" width = "8%" hspace = "1%"></a> <a href="https://www.facebook.com/Stationery-Addicts-2291628151060026/?modal=admin_todo_tour"> <img src="https://img.icons8.com/color/50/000000/facebook.png" width = "8%" hspace = "1%"> <img class = "yeeyee" src="left.png"></a> </p>
 </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
