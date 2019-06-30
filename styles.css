@@ -106,9 +106,9 @@ h3
 .carousel-indicators li 
 {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 15px;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
     border-color: #9C0D38;
     border-radius: 50%;
     background-color: #08415C;
@@ -119,9 +119,9 @@ h3
 }
 .carousel-indicators .active 
 {
-    width: 40px;
-    height: 40px;
-    margin: 15px;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
     background-color: #EEC6C5;
 }
 h4
