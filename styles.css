@@ -192,7 +192,7 @@ color: #EEC6C5;
 #footer
 {
   color: #EEC6C5;
-  font-size: 25px;
+  font-size: 25px !important;
   font-weight: normal;
 }
 .navbar-text
@@ -203,5 +203,5 @@ color: #EEC6C5;
 }
 .yeeyee
 {
-  width: 115px;
+  width: 13%;
 }
